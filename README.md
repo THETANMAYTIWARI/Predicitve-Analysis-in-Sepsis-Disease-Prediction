@@ -21,13 +21,12 @@ Joblib / Pickle – Model saving and loading
 ```
 
 ### 📊 Methodology
-📊 Methodology
 
 🔹 Data Collection & Cleaning
 
-Imported datasets from multiple hospitals.
+* Imported datasets.
 
-Handled missing values and removed redundant columns.
+* Handled missing values and removed redundant columns.
 
 🔹 Data Analysis & Visualization (EDA)
 
@@ -58,3 +57,7 @@ MLP Classifier achieved the highest accuracy (~91%).
 🔹 Model Deployment
 
 Saved trained models as finalized_model.sav and finalized_model2.sav for reuse and inference.
+
+
+
+
