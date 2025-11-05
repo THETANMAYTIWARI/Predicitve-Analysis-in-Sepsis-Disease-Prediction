@@ -60,11 +60,11 @@ In this project, multiple hospital datasets are used to build and compare variou
 
 ### 📈 Results
 ```
-Model	Accuracy (%)	Log Loss
-MLPClassifier	91.0	Lowest
-AdaBoostClassifier	87.5	Moderate
-Linear Discriminant Analysis	84.2	Higher
-GaussianNB	82.3	Higher
+🧠 Model	🎯 Accuracy (%)	📉 Log Loss	🔍 Remarks
+MLP Classifier (Neural Network)	91.0	Lowest	Best performing model
+AdaBoost Classifier	87.5	Moderate	Good generalization
+Linear Discriminant Analysis (LDA)	84.2	Higher	Stable baseline model
+Gaussian Naive Bayes	82.3	Higher	Fast but less accurate
 ```
 The MLP Classifier provided the most reliable predictions, outperforming other algorithms.
 
