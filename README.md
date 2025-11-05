@@ -9,7 +9,7 @@ In this project, multiple hospital datasets are used to build and compare variou
 
 ### ⚙️ Technologies Used
 
-* Python 3
+🔹 Python 3
 
 * Pandas and NumPy – Data manipulation and analysis
 
