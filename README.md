@@ -58,6 +58,38 @@ In this project, multiple hospital datasets are used to build and compare variou
 
 * Saved trained models as finalized_model.sav and finalized_model2.sav for reuse and inference.
 
+### 📈 Results
+```
+Model	Accuracy (%)	Log Loss
+MLPClassifier	91.0	Lowest
+AdaBoostClassifier	87.5	Moderate
+Linear Discriminant Analysis	84.2	Higher
+GaussianNB	82.3	Higher
+```
+The MLP Classifier provided the most reliable predictions, outperforming other algorithms.
 
+### 🩺 Example Visualizations
+
+* Class Distribution of Sepsis vs Non-Sepsis Patients
+
+* Confusion Matrix
+
+* ROC Curve for model evaluation
+
+* Feature-wise histograms and density plots for patient records
+
+### 💾 Model Files
+
+* Projectfinalized_model.sav – Trained model for 1st hospital dataset
+
+* Projectfinalized_model2.sav – Trained model for 2nd hospital dataset
+
+### 🧩 Future Improvements
+
+* Incorporate more hospital datasets for better generalization.
+
+* Experiment with advanced models (XGBoost, LSTM, etc.).
+
+* Develop a Flask or Streamlit web app for real-time Sepsis prediction.
 
 
