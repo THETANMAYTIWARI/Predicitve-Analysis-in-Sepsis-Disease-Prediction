@@ -21,7 +21,40 @@ Joblib / Pickle – Model saving and loading
 ```
 
 ### 📊 Methodology
-🔹 Coding projects and experiments  
-🔹 Data analysis and visualization assignments  
-🔹 Machine learning and AI models  
-🔹 Explorations in business analytics
+📊 Methodology
+
+🔹 Data Collection & Cleaning
+
+Imported datasets from multiple hospitals.
+
+Handled missing values and removed redundant columns.
+
+🔹 Data Analysis & Visualization (EDA)
+
+Visualized class imbalance using pie and count plots.
+
+Explored feature distributions and correlations for better understanding.
+
+🔹 Model Development & Evaluation
+
+Used sklearn.utils.resample() to balance Sepsis (1) and Non-Sepsis (0) classes.
+
+Selected 40 relevant features and encoded target labels (SepsisLabel).
+
+Trained multiple classifiers:
+
+MLP Classifier (Neural Network)
+
+AdaBoost Classifier
+
+Linear Discriminant Analysis (LDA)
+
+Gaussian Naive Bayes
+
+Compared models using Accuracy, Log-Loss, Confusion Matrix, and ROC Curve.
+
+MLP Classifier achieved the highest accuracy (~91%).
+
+🔹 Model Deployment
+
+Saved trained models as finalized_model.sav and finalized_model2.sav for reuse and inference.
