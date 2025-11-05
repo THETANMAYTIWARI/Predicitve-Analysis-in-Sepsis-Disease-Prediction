@@ -40,7 +40,7 @@ In this project, multiple hospital datasets are used to build and compare variou
 
 * Selected 40 relevant features and encoded target labels (SepsisLabel).
 
-* Trained multiple classifiers:
+🔹 Trained multiple classifiers:
 
 * MLP Classifier (Neural Network)
 
