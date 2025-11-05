@@ -40,15 +40,15 @@ In this project, multiple hospital datasets are used to build and compare variou
 
 * Selected 40 relevant features and encoded target labels (SepsisLabel).
 
-🔹 Trained multiple classifiers:
+  🔹 Trained multiple classifiers:
 
-* MLP Classifier (Neural Network)
+  * MLP Classifier (Neural Network)
 
-* AdaBoost Classifier
+  * AdaBoost Classifier
 
-* Linear Discriminant Analysis (LDA)
+  * Linear Discriminant Analysis (LDA)
 
-* Gaussian Naive Bayes
+  * Gaussian Naive Bayes
 
 * Compared models using Accuracy, Log-Loss, Confusion Matrix, and ROC Curve.
 
