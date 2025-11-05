@@ -8,17 +8,17 @@ Sepsis is a life-threatening condition that occurs when the body's response to i
 In this project, multiple hospital datasets are used to build and compare various machine learning models that predict Sepsis based on patient data.
 
 ### ⚙️ Technologies Used
-```
-Python 3
 
-Pandas and NumPy – Data manipulation and analysis
+* Python 3
 
-Matplotlib and Seaborn – Data visualization
+* Pandas and NumPy – Data manipulation and analysis
 
-Scikit-learn – Machine Learning models and evaluation metrics
+* Matplotlib and Seaborn – Data visualization
 
-Joblib / Pickle – Model saving and loading
-```
+* Scikit-learn – Machine Learning models and evaluation metrics
+
+* Joblib / Pickle – Model saving and loading
+
 
 ### 📊 Methodology
 
@@ -30,33 +30,33 @@ Joblib / Pickle – Model saving and loading
 
 🔹 Data Analysis & Visualization (EDA)
 
-Visualized class imbalance using pie and count plots.
+* Visualized class imbalance using pie and count plots.
 
-Explored feature distributions and correlations for better understanding.
+* Explored feature distributions and correlations for better understanding.
 
 🔹 Model Development & Evaluation
 
-Used sklearn.utils.resample() to balance Sepsis (1) and Non-Sepsis (0) classes.
+* Used sklearn.utils.resample() to balance Sepsis (1) and Non-Sepsis (0) classes.
 
-Selected 40 relevant features and encoded target labels (SepsisLabel).
+* Selected 40 relevant features and encoded target labels (SepsisLabel).
 
-Trained multiple classifiers:
+* Trained multiple classifiers:
 
-MLP Classifier (Neural Network)
+* MLP Classifier (Neural Network)
 
-AdaBoost Classifier
+* AdaBoost Classifier
 
-Linear Discriminant Analysis (LDA)
+* Linear Discriminant Analysis (LDA)
 
-Gaussian Naive Bayes
+* Gaussian Naive Bayes
 
-Compared models using Accuracy, Log-Loss, Confusion Matrix, and ROC Curve.
+* Compared models using Accuracy, Log-Loss, Confusion Matrix, and ROC Curve.
 
-MLP Classifier achieved the highest accuracy (~91%).
+* MLP Classifier achieved the highest accuracy (~91%).
 
 🔹 Model Deployment
 
-Saved trained models as finalized_model.sav and finalized_model2.sav for reuse and inference.
+* Saved trained models as finalized_model.sav and finalized_model2.sav for reuse and inference.
 
 
 
