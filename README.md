@@ -72,19 +72,19 @@ The MLP Classifier provided the most reliable predictions, outperforming other a
 
 ### 🩺 Example Visualizations
 
-* Class Distribution of Sepsis vs Non-Sepsis Patients
+* Class Distribution of Sepsis vs Non-Sepsis Patients.
 
-* Confusion Matrix
+* Confusion Matrix.
 
-* ROC Curve for model evaluation
+* ROC Curve for model evaluation.
 
-* Feature-wise histograms and density plots for patient records
+* Feature-wise histograms and density plots for patient records.
 
 ### 💾 Model Files
 
-* Projectfinalized_model.sav – Trained model for 1st hospital dataset
+* Projectfinalized_model.sav – Trained model for 1st hospital dataset.
 
-* Projectfinalized_model2.sav – Trained model for 2nd hospital dataset
+* Projectfinalized_model2.sav – Trained model for 2nd hospital dataset.
 
 ### 🧩 Future Improvements
 
